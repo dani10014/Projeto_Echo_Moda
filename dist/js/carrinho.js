@@ -1,0 +1,9 @@
+let botaoVoltarFavorito=document.querySelector(".botao-voltar-favorito"),produtosCarrinho=JSON.parse(localStorage.getItem("produtoCarrinho"))||[],corpoCardCarrinho=document.querySelector(".container .row");if(0===produtosCarrinho.length){let o="<p class='text-center mt-3' style='text-transform:uppercase'>Você ainda não tem produtos no carrinho</p>";corpoCardCarrinho.innerHTML=o}else produtosCarrinho.forEach(o=>{corpoCardCarrinho.innerHTML+=criarCardProdutoCarrinho(o)});function criarCardProdutoCarrinho(o){return`<div class="col-6 col-md-4 col-lg-3 mb-4">
+                        <div class="produto-favorito">
+                            <img src="${o.img}" class="w-100" alt="Bolsa de couro">
+                            <h6 class="text-center mt-2">${o.nome}</h6>
+                            <strong><p class="text-center">${o.valor}</p></strong>
+                            <button class="btn btn-dark btn-sm w-100">Ver produto</button>
+                            <button class="btn btn-outline-danger btn-sm w-100 mt-2" id="botao-remover">Remover</button>
+                        </div>
+                    </div>`}function atualizarQuantidadeProdutos(){var o=produtosCarrinho.length;localStorage.setItem("quantidadeProdutosCarrinho",o)}if(botaoVoltarFavorito.addEventListener("click",function(){window.location.href="index.html"}),0<produtosCarrinho.length){let o=document.querySelectorAll("#botao-remover");o.forEach(o=>{o.addEventListener("click",function(o){o=o.target.closest(".col-6");let r=o.querySelector("h6").innerText;var t=produtosCarrinho.findIndex(o=>o.nome===r);-1!==t&&(produtosCarrinho.splice(t,1),localStorage.setItem("produtoCarrinho",JSON.stringify(produtosCarrinho)),o.remove(),atualizarQuantidadeProdutos())})})}atualizarQuantidadeProdutos();

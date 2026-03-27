@@ -1,0 +1,40 @@
+.lookbook{
+    display: flex;
+    justify-content: center;
+    background-image: url("/source/imagens/pexels-athena-2043590.jpg");
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    img{
+        width: 100%;
+        object-fit:fill;
+        filter: brightness(0.5);
+    }
+    .lookbook-texto{
+        top: 60px;
+        width: 100%;
+        padding-top: 50px;
+        text-align: center;
+        backdrop-filter: brightness(0.5);
+        color: #fff;
+        h3{
+            text-transform: uppercase;
+        }
+        h6{
+            text-transform: uppercase;
+        }
+    }
+    .ver-look-botao{
+        border: 2px solid #fff;
+        padding: 5px;
+            button{
+            background-color: transparent;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            border: none;
+            color: #fff;
+        }
+    }
+}

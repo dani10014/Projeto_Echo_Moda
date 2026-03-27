@@ -1,0 +1,16 @@
+.popup-adicao-carrinho{
+    position: fixed;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(100%);
+    z-index: 4000;
+}
