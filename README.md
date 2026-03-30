@@ -3,6 +3,8 @@
 A **Echo Moda** é um projeto autoral de e-commerce focado em uma experiência de usuário premium, com uma arquitetura de código moderna, segura e totalmente automatizada. 
 Este projeto reflete meus estudos avançados em **Front-end e Automação**, aplicando conceitos de engenharia de software para criar um produto robusto e escalável.
 
+🚧 Projeto em desenvolvimento: A Echo Moda ainda está ganhando novas funcionalidades a cada dia, mas a base técnica já está sólida e automatizada. Focar na estrutura antes da finalização é o que garante um projeto de qualidade.
+
 ## 🚀 Tecnologias e Ferramentas
 
 Este projeto utiliza um workflow profissional para garantir performance e segurança:
