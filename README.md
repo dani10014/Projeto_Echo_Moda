@@ -15,5 +15,3 @@ Hoje finalizei uma etapa crucial na profissionalização do meu e-commerce. Não
 ✅ Console 100% Clean: Apliquei programação defensiva para garantir que o navegador não exiba erros de referência, independentemente da página acessada.
 
 Seguimos evoluindo no curso de Full Stack Java na EBAC, sempre focando no que o mercado realmente exige: código limpo, seguro e bem estruturado.
-
-#WebDevelopment #JavaScript #Gulp #Obfuscation #WebSecurity #FrontEnd #EBAC #EchoModa #LinuxMint #Programação
