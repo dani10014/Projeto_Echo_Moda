@@ -1,29 +1,25 @@
 # 🏛️ Echo Moda - E-commerce de Luxo
 
-Projeto de e-commerce desenvolvido como parte do curso **Full Stack Java na EBAC**. A **Echo Moda** foca em uma experiência de usuário fluida, com uma arquitetura de código moderna e automatizada.
+A **Echo Moda** é um projeto autoral de e-commerce focado em uma experiência de usuário premium, com uma arquitetura de código moderna, segura e totalmente automatizada. 
 
-## 🚀 Tecnologias e Ferramentas
+Este projeto reflete meus estudos avançados em **Front-end e Automação**, aplicando conceitos de engenharia de software para criar um produto robusto e escalável.
 
-Este projeto utiliza um workflow profissional para garantir performance e segurança:
+## 🚀 Tecnologias e Workflow Profissional
 
-* **Frontend:** HTML5, CSS3 (Sass) e JavaScript (ES6+).
-* **Automação:** [Gulp](https://gulpjs.com/) para orquestrar tarefas.
-* **Estilização:** Sass modularizado para um CSS mais limpo e manutenível.
-* **Performance:** Minificação de arquivos JS via `gulp-uglify`.
-* **Segurança:** Ofuscação de código com `javascript-obfuscator` para proteção da lógica de negócio.
-* **Módulos:** Sistema de `import/export` para organização de funcionalidades (Carrinho, Favoritos, Pesquisa).
+Para este projeto, desenvolvi um ecossistema de build completo:
 
-## 📁 Estrutura do Projeto
+* **Arquitetura Modular:** Utilização de `import/export` (ES6 Modules) para separar as lógicas de Carrinho, Favoritos e Pesquisa, garantindo um código limpo e de fácil manutenção.
+* **Automação com [Gulp](https://gulpjs.com/):** Workflow automatizado para monitoramento de arquivos (`watch`), compilação de Sass e processamento de scripts.
+* **Estilização com Sass:** Organização modular do CSS para performance e design responsivo.
+* **Segurança e Performance:** * **Minificação:** Redução do tamanho dos arquivos JS via `gulp-uglify`.
+    * **Ofuscação:** Implementação de `javascript-obfuscator` para proteger a lógica de negócio e evitar engenharia reversa.
+* **Programação Defensiva:** Tratamento rigoroso do DOM para garantir um console 100% livre de erros em todas as páginas.
 
-* `/source`: Código fonte original, organizado e comentado.
-* `/dist`: Código otimizado, minificado e ofuscado pronto para produção (ignorado pelo Git para manter o repositório limpo).
-* `gulpfile.js`: Configurações de automação do projeto.
+## 📁 Organização do Repositório
 
-## 🛠️ Como rodar o projeto localmente
-
-1. Clone o repositório: `git clone https://github.com/dani10014/Projeto_Echo_Moda.git`
-2. Instale as dependências: `npm install`
-3. Inicie o Gulp: `npm run gulp`
+* `/source`: O "coração" do projeto. Contém o código fonte original, legível e organizado.
+* `/dist`: Pasta de produção. Contém o código final otimizado, minificado e ofuscado (gerada automaticamente pelo Gulp).
+* `gulpfile.js`: O orquestrador das tarefas de automação do projeto.
 
 ---
-Desenvolvido por **Dijalma Duarte (Daniel)**.
+Desenvolvido com foco em qualidade por **Dijalma Duarte (Daniel)**.
