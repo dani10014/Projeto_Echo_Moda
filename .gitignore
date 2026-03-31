@@ -1,7 +1,5 @@
 node_modules
 
-# Pasta de distribuição
-dist/
 
 # Arquivos temporários do sistema ou do VS Code
 .DS_Store
